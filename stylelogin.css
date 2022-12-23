@@ -1,0 +1,154 @@
+#css
+  html, body {
+    height: 100%; 
+    width: 100%;
+    background-color: black;
+    background-size: 100%;
+    background-image: url(vecteezy_blue-background-1_dy1220.jpg);
+  }
+  
+  input {
+      /*display: grid;*/
+      border: 2px solid #31b7fb;
+      border-radius: 7px;
+      padding: 2px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  h2 {
+    text-align: center;
+    color:#31b7fb;
+    background-color: #011a30;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 180px;
+    min-width: 180px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    margin-left: 40px;
+  }
+  
+  form {
+    border: 2px solid grey ;
+    max-height: 25%;
+    min-height: 25%;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #011a30;
+    border: none;
+    
+  }
+  
+  input:hover {
+    background-color: #cdeeff;
+  }
+  
+  legend {
+    color: #31b7fb
+  }
+
+  fieldset {
+    border-radius: 8px;
+    border-color: #1fa9ee72;
+    width: 15%;
+    margin-left: 2%;
+  }
+
+  #fstname {
+    float: left;
+    margin-right: 4%;
+  }
+
+  #gender {
+    width: 40%;
+  }
+
+  #dateofbirth {
+    width: 40%;
+  }
+  
+  #subgender {
+    color: white;
+    font-size: 25px;
+  }
+  
+  #submitbutt {
+    margin-left: 190px;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 40px;
+    min-height: 40px;
+    background-color: #31b7fb;
+    color: #011a30;
+    font-size: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #011a30;
+
+  }
+
+  #email, #password {
+    max-width: 80%;
+    min-width: 80%;
+  }
+
+  #emailin, #passwordin {
+    max-width: 90%;
+    min-width: 90%;
+    margin-left: 5%;
+  }
+
+  
+  #submitbutt:hover {
+    background-color: #cdeeff;
+    border: none;
+  }
+  
+  .socialbutt {
+    background-color: #011a30;
+    border: none;
+    color: #31b7fb;
+    min-width: 180px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .listsocial {
+    display: none;
+    position: absolute;
+    background-color: #31b7fb;
+    min-width: 24%;
+    min-height: 7%;
+    margin-top: 5px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .listsocial a {
+    color: #202020;
+    padding: 10px 10px;
+    display: inline-flex;
+    border-radius: 8px;
+    
+  }
+  .social {
+    margin-top: 2.5%;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  
+  .listsocial a:hover {
+    background-color: #cdeeff;
+  }
+  
+  .social:hover .listsocial {
+    display: inline-flex;
+  }
